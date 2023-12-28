@@ -1,0 +1,18 @@
+﻿@model IQueryable<EFTest.Models.Artists>
+
+<div>
+    @foreach(var artists in Model)
+    { 
+        
+        <h3>name</h3>
+        <p>@artists.name</p>
+        //<h3>about</h3>
+      //  <p>@artists.about</p>
+        <h3>education</h3>
+        <p>@artists.education</p>
+       // <h3>early life</h3>
+       // <p>@artists.earlyLife</p>
+        ///<h3>home town</h3>
+        //<p>@artists.homeTown</p>
+    }
+</div>
